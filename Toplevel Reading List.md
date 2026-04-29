@@ -1,0 +1,49 @@
+### Other Reading lists
+- [[Private Tokens Reading List]] #TODO move this into this file
+### Resources
+- thedapplist.com
+	- [ ] #TODO what is it?
+
+### Leads
+- https://ichi.org/amms/
+	- Whole bunch of AMM projects to look into, not sure if many are still active
+- https://ccip.chain.link/
+	- For reading about chainlink CCIP network status
+- Layerzero omnichain docs
+	- https://docs.layerzero.network/v2/developers/evm/oapp/overview
+- [xcubicle memory paper wallet generator](https://xcubicle.github.io/memorypaperwallet/)
+	- generates a bunch of printable paper wallets using email + passphrase
+	- https://github.com/xcubicle/memorypaperwallet
+	- [ ] What is a memory paper wallet anyway?
+	- [ ] Can we trust this?
+ - [ ] Check out https://mezo.org/borrow - its a chain built on top of tBTC for borrowing against BTC
+ - [ ] [Superform protocol Docs](https://docs.superform.xyz/what-is-superform/superform-protocol) - compresses actions to work with "smart accounts"
+ - [ ] Check out Decred's Anonymized Staking mechanism
+	 - Called something like "mixed ticket buying" 
+	 - according to ChatGPT - observes can see how much is staked but not who has done what staking...
+	 - Decred still has a high degree of transparency, it just builds-in mixing
+ - [ ] [TEE Party with Suave](https://edennetwork.io/blog/tee-party-with-suave) blog post about TEE exploits I guess
+ - [ ] [EigenWallet releases page on github](https://github.com/eigenwallet/core/releases/tag/1.0.0-rc.1) - this wallet has native BTC-XMR atomic swaps built in, discovered by following the rabbithole for athanor labs XMR ETH atomic swaps. Not sure if eigenwallet supports atomic swaps to eth
+ - [ ] [comit network XMR-BTC atomic swaps on github](https://github.com/comit-network/xmr-btc-swap)
+ - [ ] [Starknet BTCFi Flywheel blog post](https://www.starknet.io/blog/starknet-x-bitcoin-the-next-step-btcfi-on-starknet/)
+	 - BTCFi appears to be a focus for Starknet
+ - [ ] Comparison of Optimism and StarkNet (from 2022 so the syntax of Cairo and other things have changed)
+	 - https://arxiv.org/pdf/2210.16610
+ - [ ] Railgun docs - https://docs.railgun.org/wiki
+	 - apparently theres a page in here about how to use railgun in a privacy preserving way. since there are potential gotchas and footguns and such
+	 - "RAILGUN is code that exists on every Ethereum node. It's a privacy system built directly on-chain for Ethereum, BSC, Polygon, and Arbitrum. It uses Zero-Knowledge (ZK) cryptography to enable private use of smart contracts and DeFi, all without leaving the security of the user’s preferred chain. The RAILGUN code has no owner. Interactions on your chain of choice are made private."
+ - [ ] [Kendrick of (kndrck.co) made a tx decoder](https://kndrck.co/posts/miao-evm-tx-decoder/)
+	 - go check it out maybe
+		 - [[Handy Tools]] #TODO move to here if it works
+ - [ ] Tweet from april 14 2026 about monero on thorchain getting close to production-ready
+	 - https://x.com/jpthor/status/2043871531521192017?s=20
+ - [ ] [tweet from ethereum foundation about this weeks news april 2026](https://x.com/ethereum/status/2043723217647387039?s=20) 
+### Open Questions
+- [ ] What is Ether.fi?
+	- [ ] How do the tokenomics of ether.fi work?
+- [ ] What is the deal with the "Sonic" rebrand of Fantom FTM
+- [ ] Whats up with Fuse network dropping metamask?
+	- [ ] Has something happened with metamask? Seems like it is behaving strangely these days (July 2025)
+- [ ] Will monero (and other coins) be vulnerable to quantum computing?
+- [ ] what is x402?
+	- Here is an "x402 explorer": https://www.x402scan.com/

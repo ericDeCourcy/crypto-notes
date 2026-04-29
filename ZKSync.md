@@ -1,0 +1,6 @@
+- [[Create2]] results in a different address when done on ZKSync
+	- This is probably due to how contracts are deployed differently, with "classes" or whatever in zk rollups (not sure name "classes" is correct)
+	- [zkSync docs Create2 page](https://docs.zksync.io/zksync-protocol/differences/evm-instructions#address-derivation) indicates they behave differently when it comes to address derivation
+- There are two different ZKSyncs
+	- ZKSync Lite - the first one, which has different key styles (not ethereum address compatible)
+	- ZKSync Era - the next one, which does have ethereum address parity

@@ -1,0 +1,3 @@
+- the `clone` function does something relating to copying values. When values are passed sometimes they're modified. We may not want that, so you can use `.clone()` to prevent them from getting changed
+	- https://docs.cairo-lang.org/core/tmp/core-clone.html?highlight=clone#clone
+	- 

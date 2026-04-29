@@ -1,0 +1,7 @@
+- has nice features, lots of complex filters
+- Note that the "6h" rate is the borrow interest rate for the borrowed asset
+- Not obvious but morpho pays out for suppliers 
+	- check out [this market](https://app.morpho.org/ethereum/market/0x94b823e6bd8ea533b4e33fbc307faea0b307301bc48763acc4d4aa4def7636cd/weth-usdc) and scroll down to `instantaneous rates` and you can see there's a supply and borrow side
+- [ ] What exactly are morpho vaults? Versus markets?
+	- oh, it appears there are performance fees for certain morpho vaults
+	- #TODO

@@ -1,0 +1,4 @@
+- [ ] What does weekly revenue mean? Whats going on there? #TODO
+	- On their site (https://app.beefy.finance/) there's a "weekly revenue" number which is described as "total strategy revenue paid out by the fee batch on ethereum... to both the DAO treasury and BIFI holders"
+- [ ] There's a weekly buyback - is that a buyback and burn? 
+	- #TODO find if this is still happening - looks like it was setup last year and has gone quiet
