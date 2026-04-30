@@ -38,6 +38,13 @@
  - [ ] Tweet from april 14 2026 about monero on thorchain getting close to production-ready
 	 - https://x.com/jpthor/status/2043871531521192017?s=20
  - [ ] [tweet from ethereum foundation about this weeks news april 2026](https://x.com/ethereum/status/2043723217647387039?s=20) 
+ - [ ] Cork protocol - what is it? www.cork.tech 
+	 - "Tokenized risk protocol"
+ - [ ] Arcium - @Arcium on twitter - arcium.com - what is it? They just say `<encrypted>` a lot
+ - [ ] Venice AI - how do they actually secure your data
+ - [ ] PrivacyBoost for Optimism
+ - [ ] Uniswap [blog post about "unification"](https://www.uniswapfoundation.org/blog/unification) 
+ - [ ] read about "hi" protocol from [[Debank]]
 ### Open Questions
 - [ ] What is Ether.fi?
 	- [ ] How do the tokenomics of ether.fi work?
@@ -47,3 +54,4 @@
 - [ ] Will monero (and other coins) be vulnerable to quantum computing?
 - [ ] what is x402?
 	- Here is an "x402 explorer": https://www.x402scan.com/
+- [ ] What do good "circuit breakers" look like in DeFi?

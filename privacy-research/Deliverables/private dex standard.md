@@ -1,0 +1,8 @@
+- Private dex idea
+	- groups of users register a private intent together, with private token inputs - ring sigs
+	- as private intent gets built, eventually it executes. perhaps a fixed number or random number of queued intents will execute together. Private results will be published together.
+		- input: {command, params, receipt-key} -> receipt: {encrypted id of receipt, encrypted with receipt-key}
+	- perhaps over some regular interval, 10% of transactions get executed. Or... they're assigned in random order
+		- maybe they are ether added to orderbook or cancel out something else in orderbook. All key images to not leak which ones are getting executed
+	- price is never revealed outward;y
+	- why not just have an amm that has options for execute or nah

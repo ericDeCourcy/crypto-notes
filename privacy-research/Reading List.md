@@ -1,0 +1,14 @@
+- [[Private Tokens Reading List]]
+- [ ] https://moneroleaks.xyz/
+- [ ] [Stanford Kite protocol on Arxiv](https://arxiv.org/pdf/2501.05626) 
+	- [[Kite]] local page
+- [ ] [More Vitamins for Monero with CARROT](https://www.reddit.com/r/Monero/comments/1j745kf/more_vitamins_for_monero_with_carrot_part_2/)
+- [ ] [[NFP_19]] 
+- [ ] Check out this "confidential lending market" on Sepolia testnet: https://sepolia.etherscan.io/address/0x9749421bf36ca88fbb5ae5ca33d4d9e7b3665865#code
+	- ChatGPT recommended it, idk where it is from though
+- [ ] [[NFP_20]]
+- [ ] T-rex standard for RWAs
+- [ ] 0xbow.io
+- [ ] WTF are blobs and how does that work?
+- [ ] Goblin cards - https://www.goblincards.com/
+- [ ] https://monero.jobs/jobs
