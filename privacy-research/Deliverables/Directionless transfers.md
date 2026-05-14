@@ -1,0 +1,9 @@
+- Addition to ERC7984 - ability to trigger a send of a negative amount from someone else to yourself
+	- This will make origination of payments and direction of transfers of private assets much harder to trace. Could also be useful for dexes
+	- Token may need to express "directionless-ness"
+- General concept: **Use negative numbers and signatures to send tokens to others, originating from their account. This is a way to pay people without revealing yourself. Also, allows for people to send without indicating its coming from them, if they use positive numbers**
+	- [ ] #TODO workshop this 
+	- Goal is to have encrypted transfers no longer need "sender" and "receiver"
+- "signature" would need to be present in all transfers - but could be invalid if originating from sender. Might be faster, if originating from sender, to just use a signature anyway
+	- for contracts needs to support contract signatures
+	- encrypted signature verification too to not reveal who intit'ed transfer

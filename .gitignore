@@ -1,2 +1,9 @@
 # Ignore NFPs
 NFP-port/
+NFP*
+
+# Ignore obsidian configuration
+.obsidian/
+
+# Ignore the "base" file from obsidian
+Base.base
