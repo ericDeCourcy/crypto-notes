@@ -2,6 +2,8 @@
 - At the time of writing (April 29 2026) it costs 0.1 0G (mainnet) tokens to deploy an agent
 - [0x949fa60a705124f4b953f5bfc7aac838a12b8b0a](https://explorer.0g.ai/mainnet/blockchain/accounts/0x949fa60a705124f4b953f5bfc7aac838a12b8b0a/verified-contracts)  is the contract address for deploying agents
 	- appears that interacting (prompting) with agents doesn't necessarily trigger a transaction on 0G
+	- This staticcalls this: 0xc9323be4b38bfa4831771326b1d1e26dd0e4740f
+	- then it delegatecalls: 0x3a80caf20eb6e157a75fd77c38ea1b22b8193ea6
 - #TODO cannot get a "private" iNFT deployed, managed to deploy exactly 1 public agent
 
 ### Onchain components

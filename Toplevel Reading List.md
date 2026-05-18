@@ -45,6 +45,9 @@
  - [ ] PrivacyBoost for Optimism
  - [ ] Uniswap [blog post about "unification"](https://www.uniswapfoundation.org/blog/unification) 
  - [ ] read about "hi" protocol from [[Debank]]
+ - [ ] Kohaku project - privacy related
+ - [ ] Looks like thorchain got hacked? May 16 2026 - https://x.com/arik_g/status/2055961631423598725?s=20
+	 - This is a technical thread on it by the CPO of Zama
 ### Open Questions
 - [ ] What is Ether.fi?
 	- [ ] How do the tokenomics of ether.fi work?
