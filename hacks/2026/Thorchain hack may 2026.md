@@ -22,6 +22,11 @@ This is not a novel class of vulnerability conceptually. Academic research has i
 	- Call for community to share proposal
 - They Thorchain team is leaning towards continuing to use GG20 instead of introducing more changes
 
+[tweet from @pluto_hbr](https://x.com/pluto_hbr/status/2056560674931646527?s=20)
+- Thorchain release 3.18 was done as a private binary
+- The node operators could request a source code diff for this patch if they wanted. Some did
+- It seems implied by the tweet that the hacker deduced some exploit by getting the patch diff this way
+
 # Incident response
 - governance executed `make pause`, which pauses $RUNE transfers for 12 hours, and all trading and LP actions indefinitely.
 

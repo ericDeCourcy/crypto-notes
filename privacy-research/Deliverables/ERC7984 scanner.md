@@ -83,14 +83,14 @@ This script will return all transactions which have a topic in the "confidential
 - what percent of people are doing "full unwraps" vs "unwraps with proof"
 	- cUSDT - 642 with proof, 9519 without proof (full unwrap) --> 93.7% are full unwraps
 
-| cToken | Wrap | Transfer | Transfer_w_proof | Unwraps | Unwrap_w_proof | Total | Percent traceable | Final Scanned block |
-| ------ | ---- | -------- | ---------------- | ------- | -------------- | ----- | ----------------- | ------------------- |
-| cUSDT  |      |          |                  |         |                |       |                   |                     |
-| cUSDC  | 150  | 2        | 54               | 26      | 103            |       |                   |                     |
-| cBRON  | 16   | 0        | 42               | 0       | 16             |       |                   |                     |
-| ctGBP  | 5    | 0        | 4                | 0       | 4              |       |                   |                     |
-| cWETH  | 16   | 0        | 3                | 0       | 18             |       |                   |                     |
-| cZAMA  | 19   | 0        | 16               | 4       | 24             |       |                   |                     |
+| cToken | Wrap | Transfer | Transfer_w_proof | Unwraps | Unwrap_w_proof | Traceable Transfers | Traceable Unwraps |
+| ------ | ---- | -------- | ---------------- | ------- | -------------- | ------------------- | ----------------- |
+| cUSDT  |      | 53       | 60               | 9521    | 642            | 46.9%               | 93.7%             |
+| cUSDC  | 150  | 2        | 54               | 26      | 103            | 3.57%               | 20.1%             |
+| cBRON  | 16   | 0        | 42               | 0       | 16             | 0%                  | 0%                |
+| ctGBP  | 5    | 0        | 4                | 0       | 4              | 0%                  | 0%                |
+| cWETH  | 16   | 0        | 3                | 0       | 18             | 0%                  | 0%                |
+| cZAMA  | 19   | 0        | 16               | 4       | 24             | 0%                  | 14.3%             |
 
 
 - what percent of transfers are "full transfers" vs "partial transfers"
@@ -103,3 +103,18 @@ This script will return all transactions which have a topic in the "confidential
 
 ### For "redeem delegations"
 See [[NFP_14]]
+
+### Findings to turn into a twitter thread
+Zama scanner findings
+
+- Privacy leaks happen in two forms: unproven unwraps and unproven transfers. Since handles need to be accessible by those using them, transfers/unwraps without proofs have a very limited set of values. These are almost always the entire balance of the account. These handles can be traced
+- We can likely "score" the private usage of cTokens by counting the handles which have been used to represent balances or transfer amounts, and then counting the ratio of handles which have only one possible value. Since the important private information behind cTokens is the balances themselves, this score effectively represents "How good the system is". To improve the system, we just need to improve this ratio. 
+- We can describe handles as a summation of dependencies. Wraps + transfers_in - unwraps - transfers_out. These dependencies are also sometimes handles or sometimes known values. The literal value can be expressed as a range {min,max}.
+	- Using the algebraic approach, we can back-solve private values. Practically, this means your privacy may go down as time goes on. Algebraic values getting solved cascades into other algebraic values.
+- Since wraps/unwraps are revealed, the only secret information is transfers. Transfers are the mechanism by which we increase privacy; we create more unknown values by doing more transfers. 
+- We can improve the privacy of cTokens substantially by removing `transfer` and only allowing `transferWithProof`. This can be done at the UI level by avoiding `transfer`
+- Zama auction was the biggest use case by far of cUSDT. Out of 47000 transactions, ~100 did not involve the auction contracts. 
+- Transaction "carefulness" goes down with mass use, drastically. Of the transfers of cUSDT, ~47% of those scanned were traceable. This tells us something - the vast majority of users are not paying that close attention. 
+- After the auction, most users of cUSDT pulled their funds back out. ~93% of unwraps were traceable and "full balance unwraps"
+- Privacy loss over time is exemplified by the Zama auction. Once the auction price was settled and their $ZAMA transferred, it became very easy to back-compute people's bids. 
+- Go check out my github if you want a giant DB of all cUSDT transfer events. I also have the significantly smaller DBs of the other cTokens.

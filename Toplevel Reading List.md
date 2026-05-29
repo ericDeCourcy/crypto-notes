@@ -46,8 +46,14 @@
  - [ ] Uniswap [blog post about "unification"](https://www.uniswapfoundation.org/blog/unification) 
  - [ ] read about "hi" protocol from [[Debank]]
  - [ ] Kohaku project - privacy related
- - [ ] Looks like thorchain got hacked? May 16 2026 - https://x.com/arik_g/status/2055961631423598725?s=20
-	 - This is a technical thread on it by the CPO of Zama
+ - [ ] https://btcmedusa.com/ - shows KYC information associated with your BTC UTXOs
+ - [ ] Nostr VPN 0 open source mesh VPN
+ - [ ] Tailscale (mesh VPN)
+ - [ ] ApeFramework 
+ - [ ] https://forkcast.org/ - appears to track ethereum fork progress
+- [ ] https://kuno.anne.media/ - monero fundraising platform 
+- [ ] logos network
+- [ ] Periodically, go check X bookmarks list
 ### Open Questions
 - [ ] What is Ether.fi?
 	- [ ] How do the tokenomics of ether.fi work?
@@ -58,3 +64,5 @@
 - [ ] what is x402?
 	- Here is an "x402 explorer": https://www.x402scan.com/
 - [ ] What do good "circuit breakers" look like in DeFi?
+- [ ] Whats up with the makerdao sky upgrade? Haven't been following
+- [ ] 
