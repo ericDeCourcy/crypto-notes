@@ -54,6 +54,7 @@
 - [ ] https://kuno.anne.media/ - monero fundraising platform 
 - [ ] logos network
 - [ ] Periodically, go check X bookmarks list
+- [ ] https://www.veilo.network/ - The "all in one Solana privacy app"
 ### Open Questions
 - [ ] What is Ether.fi?
 	- [ ] How do the tokenomics of ether.fi work?
