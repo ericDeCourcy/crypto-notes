@@ -55,6 +55,7 @@
 - [ ] logos network
 - [ ] Periodically, go check X bookmarks list
 - [ ] https://www.veilo.network/ - The "all in one Solana privacy app"
+- [ ] [Article about Vietnam's national blockchain network, "NDAChain"](https://www.prnewswire.com/news-releases/vietnam-launches-ndachain-the-national-blockchain-platform-to-accelerate-digital-data-infrastructure-by-2026-302513864.html) 
 ### Open Questions
 - [ ] What is Ether.fi?
 	- [ ] How do the tokenomics of ether.fi work?
