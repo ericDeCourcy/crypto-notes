@@ -1,0 +1,6 @@
+- https://docs.zama.org/protocol/solidity-guides/getting-started/quick-start-tutorial/write_a_simple_contract
+	- [ ] #TODO let them know that this test is a little weird - in the previous step they output the signer addresses and then thats just quietly dropped (output should have signer addresses but it dont)
+- When using the `.createEncryptedInput` function, the params are `contract address` and `signer` 
+	- This means that the input is only valid FOR THAT CONTRACT and from tht signer
+- [ ] is it possible to use the same encrypted input twice for different functions from the same signer? #OpenQuestion 
+- [ ] Appears this guide is for hardhat v2, but now hardhat v3 is in beta and can be downloaded if you naively use npm

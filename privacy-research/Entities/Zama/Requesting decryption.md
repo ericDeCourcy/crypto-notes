@@ -1,0 +1,6 @@
+- This is an asynchronous process
+- All `requestDecryption...` functions redirect to [here in the FHEVM library](https://github.com/zama-ai/fhevm/blob/9cd2aa6ab7b9e4f04744a1feabb8a426d9cd4ad8/library-solidity/lib/FHE.sol#L8965-L8980)
+- each decryption request produces an `id` to reference. This is just an [incremented value](https://github.com/zama-ai/fhevm/blob/9cd2aa6ab7b9e4f04744a1feabb8a426d9cd4ad8/library-solidity/lib/FHE.sol#L8979), in order of calling
+- [ ] #OpenQuestion the `requestDecryption` functions have a `callbackSelector` parameter - does this determine the selector which will be called when the decryption is done, or does this enforce the original call must be from said selector? For example, if `callbackSelector` is `somefunc.selector`
+	- the `verifySignatures` function must be called within the `somefunc.selector` OR
+	- after a signature set is verified, the `somefunc` function will be called?

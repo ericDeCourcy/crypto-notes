@@ -1,0 +1,15 @@
+- [Host Contracts page in the Zama docs](https://docs.zama.ai/protocol/protocol/overview/hostchain)
+- **Access Control API:** Host contracts expose the following access control logic
+	- `allow(handle, address)`: Grants persistent access.
+    - `allowTransient(handle, address)`: Grants temporary access for a single transaction.
+    - `allowForDecryption(handle)`: Marks a handle as publicly decryptable.
+    - `isAllowed(handle, address)`: Returns whether a given address has access.
+    - `isSenderAllowed(handle)`: Checks if msg.sender is allowed to use a handle.
+		- [ ] Does "using" a handle mean read AND write? Or what?
+- The host contract emit these events, which are used by the Coprocessor to trigger state updates 
+	- `Allowed(handle, address)`
+	- `AllowedForDecryption(handle)`
+- [Here is an example ACL contract on Sepolia](https://sepolia.etherscan.io/address/0x7f865d65ecd66d0353fd78500d970a488d5f71e0#code)
+	- [ ] #OpenQuestion is this the same as the "host contract"? It appears to implement the "Access Control API" mentioned above
+- [ ] #OpenQuestion How do the Host Contracts interplay with the [[Access Control Lists]]
+- [ ] 

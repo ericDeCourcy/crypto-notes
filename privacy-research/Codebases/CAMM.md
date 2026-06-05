@@ -1,3 +1,5 @@
+Backlink: [[Lunarys]]
+
 Reference implementation: https://github.com/6ygb/CAMM
 
 # Design

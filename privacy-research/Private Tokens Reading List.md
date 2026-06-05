@@ -1,0 +1,30 @@
+- [ ] [Zama `EncryptedERC20.sol`](https://github.com/zama-ai/fhevm-backend/blob/18346fab41b298259b002eaa98c1b996ccaf49da/contracts/examples/EncryptedERC20.sol)
+- [ ] [Coti `PrivateERC20.sol`](https://github.com/coti-io/coti-contracts/blob/main/contracts/token/PrivateERC20/PrivateERC20.sol)
+	- What is Coti?
+- [ ] [Zether "Confidential Transactions" Blog post... paper...???](https://www.michaelstraka.com/confidentialtx) 
+- #NFP_6
+- [ ] Inco Token Standard 
+	- [ ] #TODO is this just the same as the Zama Encrypted ERC20?
+- [ ] Mastering Monero
+- [ ] Learn about Shielded ZCash
+- [ ] Learn about Oasis Rose
+- [ ] Learn about Aleo
+- [ ] Learn about Midnight Network
+- [ ] Secret Network
+- [ ] Mimblewimble
+- [ ] Learn about what the needs are of institutional clients
+- [ ] [Solana Confidential Tokens](https://spl.solana.com/confidential-token/deep-dive/overview) 
+- [ ] [Aptos Vieled Coins](https://aptos.dev/en/build/smart-contracts/cryptography#veiled-coins) 
+- [ ] https://www.confidentialtoken.org/ - Confidential Token Association website
+	- Affiliated with Inco
+- [ ] zkBOB - according to chatGPT, this is protocol on BOB chain which is designed for private USDC-like stablecoin transfers
+	- https://www.zkbob.com/
+	- apparently implements KYC features optionally
+- [ ] EIP-5564 - basically stealth addresses
+	- [ ] used in Umbra protocol (from scopelift)
+- [ ] ERC-4337 - relayers and smart wallets
+- [ ] Railgun
+- [ ] Semaphore
+- [ ] Grin - what exactly was the issue with MimbleWimble?
+- [ ] FHENIX - [DBFV](https://chainwire.org/2026/02/06/fhenixs-decomposable-bfv-makes-exact-fully-homomorphic-encryption-a-reality-for-blockchain-applications/) 
+- [ ] https://disentangle.network/

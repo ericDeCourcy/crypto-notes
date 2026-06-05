@@ -1,0 +1,9 @@
+- Differentiates self from Zama by using TEE 
+	- #TODO confirm this
+- It seems like Inco is basically Zama, but with TEEs instead of MPC
+- Looks like this is the Inco-equivalent to the Zama FHE library:
+	- https://github.com/Inco-fhevm/fhevm-backend/blob/main/contracts/lib/TFHE.sol
+	- #TODO confirm
+- [ ] #TODO Figure out what import [this page](https://docs.inco.org/guide/intro) is referencing
+	- As of Nov 5 2025
+	- They're loading in this import: `@inco/lightning/Lib.sol`

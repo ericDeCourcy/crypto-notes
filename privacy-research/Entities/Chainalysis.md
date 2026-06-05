@@ -1,0 +1,2 @@
+- [Article about tracing ZCash and Dash](https://www.chainalysis.com/blog/introducing-investigations-compliance-support-for-privacy-coins/) 
+	- Basically 99% of ZCash and Dash transactions can be traced

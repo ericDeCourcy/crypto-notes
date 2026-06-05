@@ -1,0 +1,11 @@
+- [Access Control Lists page in Zama docs](https://docs.zama.ai/protocol/solidity-guides/smart-contract/acl)
+- [ACL Examples page in Zama docs](https://docs.zama.ai/protocol/solidity-guides/smart-contract/acl/acl_examples)
+	- [ ] #OpenQuestion in this line: `ciphertext.allowTransient(address1).allow(address2);` , what contract contains the `allowTransient` function? Does it return a `cyphertext` style object which can then be used for the `allow` function also? I am struggling to understand how you can call both methods at once for the same object. According to the docs:
+		- *You can combine multiple allowance methods (such as `.allow()`, `.allowThis()`, `.allowTransient()`) directly on ciphertext objects to grant access to several addresses or contracts in a single, fluent statement.*
+- [ ] #TODO understand this [Confidential ERC20 Attack](https://docs.zama.ai/protocol/solidity-guides/smart-contract/acl/acl_examples#example-scenario-confidential-erc20-attack) 
+	- Doesn't this require the sender to have control over the account, and therefore means the sender should know the balance anyway?
+- Its fairly common to use `FHE.allowThis(<name>)` where the `<name>` is the name of a variable. This allow the contract (`address(this)`) to read said value. 
+	- For example, in an auction contract, setting `highestBidder` (using `.select()` (see [[Branching in Zama]]) may be used, but then to read the decrypted value of `highestBidder` you'll need to have previously done `allowThis(highestBidder)`.
+		- [ ] #OpenQuestion is there a good way to do this only once? Perhaps doing it in the constructor? Or using a non-encrypted flag in solidity to determine if allowance has already been set
+		- [ ] #OpenQuestion does using the `allow` function actually allow one to read the unencrypted, or only the encrypted value? The comments in the [code block in this section](https://docs.zama.ai/protocol/solidity-guides/smart-contract/logics/conditions#example-auction-bidding-logic-item-release) of the docs indicate that it gives "access to the cyphertext" but not the unencrypted text
+- [Re-org handling](https://docs.zama.org/protocol/solidity-guides/smart-contract/acl/reorgs_handling) is an interesting concept

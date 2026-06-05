@@ -1,2 +1,5 @@
 - [**Function selector generator**](https://gmbridge.xyz/tools/function-selector-generator)
-- 
+- https://app.dedaub.com/ 
+	- has a bunch of tools including decompiler
+- Haven't tested this, but https://github.com/Jon-Becker/heimdall-rs
+	- "Heimdall is an advanced EVM smart contract toolkit specializing in bytecode analysis and extracting information from unverified contracts."
