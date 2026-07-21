@@ -4,7 +4,7 @@
 - thedapplist.com
 	- [ ] #TODO what is it?
 
-### Leads
+### Reading List
 - https://ichi.org/amms/
 	- Whole bunch of AMM projects to look into, not sure if many are still active
 - https://ccip.chain.link/
@@ -56,6 +56,17 @@
 - [ ] Periodically, go check X bookmarks list
 - [ ] https://www.veilo.network/ - The "all in one Solana privacy app"
 - [ ] [Article about Vietnam's national blockchain network, "NDAChain"](https://www.prnewswire.com/news-releases/vietnam-launches-ndachain-the-national-blockchain-platform-to-accelerate-digital-data-infrastructure-by-2026-302513864.html) 
+- [ ] https://cryptocrime-dashboard.vercel.app/
+- [ ] https://ps.logos.co/
+	- "Parallel society" thing that happened in lisbon march 2026
+- [ ] [Monero-EVM Atomic Swaps presentation from july 2026](https://www.reddit.com/r/Monero/comments/1uc7edw/monerokon_6_state_of_evmxmr_atomic_swaps/) 
+	- [ ] [All monerokon 2026 talks here on reddit](https://www.reddit.com/r/Monero/comments/1uelcnk/monerokon_6_talks/)
+- [ ] Paper - ["The algorithmic foundations of differential privacy"](https://www.cis.upenn.edu/~aaroth/Papers/privacybook.pdf) 
+- [ ] Paper about tracing railgun - [A Tattered Cloak of Invisibility: Measuring Anonymity Loss in Railgun on Ethereum](https://arxiv.org/abs/2606.25926)
+- [ ] Vitalik post on obfuscation protocols - https://vitalik.eth.limo/general/2026/06/29/obfuscation1.html
+- [ ] https://en.wikipedia.org/wiki/Emergence
+	- [ ] Go down the rabbit hole and click some links relating to complex systems
+- [ ] Go check out Octra (followed on twitter)
 ### Open Questions
 - [ ] What is Ether.fi?
 	- [ ] How do the tokenomics of ether.fi work?
@@ -67,4 +78,5 @@
 	- Here is an "x402 explorer": https://www.x402scan.com/
 - [ ] What do good "circuit breakers" look like in DeFi?
 - [ ] Whats up with the makerdao sky upgrade? Haven't been following
-- [ ] 
+- [ ] As of june 2026, looks like sUSD (synthetix) has depegged substantially. WTF happened?
+- [ ] Get involved with kohaku

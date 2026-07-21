@@ -6,6 +6,36 @@
 		- Note there may not even be a hash included here
 	- #NFP_8
 
+### Coprocessor
+[[Zama Coprocessor]]
+
+### HCU
+[[Zama HCU]]
+
+### ACL
+The ACLs are different contracts that manage decryption privileges
+
+Claude gave me [this address (`0xcA2E8f1F656CD25C01F05d0b243Ab1ecd4a8ffb6`)](https://etherscan.io/address/0xcA2E8f1F656CD25C01F05d0b243Ab1ecd4a8ffb6#code) as the ACL for mainnet ethereum 
+### Steakhouse cUSDC Vaults
+- Announced [in this tweet](https://x.com/zama/status/2067187076261421067) - alt [link to blogpost](https://www.zama.org/post/morpho-zama-steakhouse-launch-confidential-usdc-vault)
+	- Steakhouse Confidential USDC Prime vault is for cUSDC holders to deposit into in Morpho
+	- *"Position size, direction, and entry timing stay encrypted."* according to this tweet-post
+		- #TODO validate these claims
+	- Deposit via the zama app (app.zama.org) 
+
+### Zama governance (DAO)
+- Aragon DAO on ethereum
+- Related to operations and actions involving the $ZAMA token
+
+## $ZAMA token
+- Lives on ethereum 
+- is a [[LayerZero]] OFT
+	- #TODO what is an OFT?
+
+## Non-EVM chains
+- [[HyperLiquid]]
+- [[Solana]]
+
 ### Links
 - [Zama Bounty Program](https://github.com/zama-ai/bounty-program)
 - [Zama docs](https://docs.zama.ai/protocol)
